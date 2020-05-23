@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Calculator</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="calc-container">
+  <div id="calculator">
+    <div class="window" id="num-window">0</div>
+    <div class="keys light-grey" id="clear">C</div>
+    <div class="keys light-grey" id="delete">←</div>
+    <div class="keys light-grey" id="plus-minus">±</div>
+    <div class="keys orange" id="div">÷</div>
+    <div data-num="7" class="keys dark num" id="seven">7</div>
+    <div data-num="8" class="keys dark num" id="eight">8</div>
+    <div data-num="9" class="keys dark num" id="nine">9</div>
+    <div class="keys orange" id="times">×</div>
+    <div data-num="4" class="keys dark num" id="four">4</div>
+    <div data-num="5" class="keys dark num" id="five">5</div>
+    <div data-num="6" class="keys dark num" id="six">6</div>
+    <div class="keys orange" id="minus">−</div>
+    <section id="anomaly-keys-wrapper">
+      <section>
+        <div data-num="1" class="keys dark num" id="one">1</div>
+        <div data-num="2" class="keys dark num" id="two">2</div>
+        <div data-num="3" class="keys dark num" id="three">3</div>
+        <div data-num="0" class="keys long dark num" id="zero">0</div>
+        <div class="keys dark" id="decimal">.</div>
+      </section>
+      <section>
+        <div class="keys tall orange" id="plus">+</div>
+        <div class="keys tall orange" id="equals">=</div>
+      </section>
+    </section>
+
+  </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="calc.js"></script>
+</html>
